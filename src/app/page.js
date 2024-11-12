@@ -77,7 +77,7 @@ export default function Component() {
             </div>
             <div className="hidden md:block">
               <h2 className="text-3xl md:text-4xl font-serif mb-4">
-                I'm an AI engineer creating innovative solutions using LLMs, generative AI, machine learning, and NLP to enhance real-world experiences.
+                I am an AI engineer creating innovative solutions using LLMs, generative AI, machine learning, and NLP to enhance real-world experiences.
               </h2>
             </div>
           </div>
@@ -91,12 +91,12 @@ export default function Component() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <p className="text-muted-foreground">
-                I'm a passionate Senior Applied AI Engineer with over 3 years of experience in creating innovative AI solutions
+                I am a passionate Senior Applied AI Engineer with over 3 years of experience in creating innovative AI solutions
                 that drive engagement and deliver results.
               </p>
               <p className="text-muted-foreground">
                 My approach combines cutting-edge AI technologies with practical application, ensuring that every project
-                not only pushes the boundaries of what's possible but also delivers real-world value.
+                not only pushes the boundaries of what is possible but also delivers real-world value.
               </p>
             </div>
             <div className="space-y-4">
@@ -204,7 +204,7 @@ export default function Component() {
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-serif mb-4">Let's Innovate Together</h2>
             <p className="text-muted-foreground mb-8">
-              I'm always open to discussing AI projects, research collaborations, or partnership opportunities.
+              I am always open to discussing AI projects, research collaborations, or partnership opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="flex items-center gap-2">
