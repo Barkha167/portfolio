@@ -32,7 +32,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mb-6 text-4xl font-bold tracking-tight text-olive-800 sm:text-6xl"
         >
-          Hi, I'm <span className="text-olive-600">Barkha Verma</span>
+          Hi, I am <span className="text-olive-600">Barkha Verma</span>
           <br />
           Applied AI Engineer
         </motion.h1>

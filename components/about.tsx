@@ -40,7 +40,7 @@ export function About() {
       >
         <h2 className="mb-4 text-center text-3xl font-bold">About Me</h2>
         <p className="mx-auto mb-12 max-w-2xl text-center text-muted-foreground">
-        I'm a passionate AI Engineer with expertise in designing and deploying intelligent systems using cutting-edge technologies.
+        I am a passionate AI Engineer with expertise in designing and deploying intelligent systems using cutting-edge technologies.
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {skills.map((skill, index) => (
