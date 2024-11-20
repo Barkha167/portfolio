@@ -11,11 +11,16 @@ const components: { [key: string]: React.ComponentType } = {
   contact: Contact,
 };
 
-export default function DynamicPage({ params }: { params: { slug: string } }) {
+type DynamicPageProps = {
+  params: { slug: string };
+};
+
+export default function DynamicPage({ params }: DynamicPageProps) {
   const Component = components[params.slug];
 
   if (!Component) {
-    notFound();
+    notFound(); // If no matching component is found, show the 404 page
+    return null; // Ensure the page doesn't render anything after calling notFound()
   }
 
   return (
